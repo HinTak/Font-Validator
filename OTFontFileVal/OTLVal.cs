@@ -310,111 +310,111 @@ namespace OTFontFile.OTL
         {
             string [] sTags = 
             {
-                "aalt", // Access All Alternates"
-                "abvf", // Above-base Forms"
-                "abvm", // Above-base Mark Positioning"
-                "abvs", // Above-base Substitutions"
-                "afrc", // Alternative Fractions"
-                "akhn", // Akhands"
-                "blwf", // Below-base Forms"
-                "blwm", // Below-base Mark Positioning"
-                "blws", // Below-base Substitutions"
-                "c2pc", // Petite Capitals From Capitals"
-                "c2sc", // Small Capitals From Capitals"
-                "calt", // Connection Forms"
-                "case", // Case-Sensitive Forms"
-                "ccmp", // Glyph Composition/Decomposition"
-                "clig", // Contextual Ligatures"
-                "cpsp", // Capital Spacing"
-                "cswh", // Contextual Swash"
-                "curs", // Cursive Positioning"
-                "dflt", // Default Processing"
-                "dist", // Distances"
-                "dlig", // Discretionary Ligatures"
-                "dnom", // Denominators"
-                "dpng", // Diphthongs"
-                "expt", // Expert Forms"
-                "falt", // Final glyph Alternates"
-                "fina", // Terminal Forms"
-                "fin2", // Terminal Forms #2"
-                "fin3", // Terminal Forms #3"
-                "frac", // Fractions"
-                "fwid", // Full Width"
-                "half", // Half Forms"
-                "haln", // Halant Forms"
-                "halt", // Alternate Half Width"
-                "hist", // Historical Forms"
-                "hkna", // Horizontal Kana Alternates"
-                "hlig", // Historical Ligatures"
-                "hngl", // Hangul"
-                "hwid", // Half Width"
-                "init", // Initial Forms"
-                "isol", // Isolated Forms"
-                "ital", // Italics"
-                "jajp", // Japanese Forms"
-                "jalt", // Justification Alternatives"
-                "jp78", // JIS78 Forms"
-                "jp83", // JIS83 Forms"
-                "jp90", // JIS90 Forms"
-                "kern", // Kerning"
-                "lfbd", // Left Bounds"
-                "liga", // Standard Ligatures"
-                "ljmo", // Leading Jamo Forms"
-                "lnum", // Lining Figures"
-                "locl", // Localized Forms"
-                "mark", // Mark Positioning"
-                "medi", // Medial Forms"
-                "med2", // Medial Forms #2"
-                "mgrk", // Mathematical Greek"
-                "mkmk", // Mark to Mark Positioning"
-                "mset", // Mark Positioning via Substitution"
-                "nalt", // Alternate Annotation Forms"
-                "nukt", // Nukta Forms"
-                "numr", // Numerators"
-                "onum", // Old Style Figures"
-                "opbd", // Optical Bounds"
-                "ordn", // Ordinals"
-                "ornm", // Ornaments"
-                "palt", // Proportional Alternate Width"
-                "pcap", // Petite Capitals"
-                "pnum", // Proportional Figures"
-                "pref", // Pre-base Forms"
-                "pres", // Pre-base Substitutions"
-                "pstf", // Post-base Forms"
-                "psts", // Post-base Substitutions"
-                "pwid", // Proportional Widths"
-                "qwid", // Quarter Widths"
-                "rand", // Randomize"
-                "rlig", // Required Ligatures"
-                "rphf", // Reph Form"
-                "rtbd", // Right Bounds"
-                "rtbd", // Right-to-left Alternates"
-                "ruby", // Ruby Notation Forms"
-                "salt", // Stylistic Alternates"
-                "sinf", // Scientific Inferiors"
-                "size", // Optical Size"
-                "smcp", // Small Capitals"
-                "smpl", // Simplified Forms"
-                "subs", // Subscript"
-                "sups", // Superscript"
-                "swsh", // Swash"
-                "titl", // Titling"
-                "tjmo", // Trailing Jamo Forms"
-                "tnam", // Traditional Name Forms"
-                "tnum", // Tabular Figures"
-                "trad", // Traditional Forms"
-                "twid", // Third Widths"
-                "unic", // Unicase"
-                "valt", // Alternate Vertical Metrics"
-                "vatu", // Vattu Variants"
-                "vert", // Vertical Writing"
-                "vhal", // Alternate Vertical Half Metrics"
-                "vjmo", // Vowel Jamo Forms"
-                "vkna", // Vertical Kana Alternates"
-                "vkrn", // Vertical Kerning"
-                "vpal", // Proportional Alternate Vertical Metrics"
-                "vrt2", // Vertical Rotation"
-                "zero", // Slashed Zero"
+                "aalt", // Access All Alternates
+                "abvf", // Above-base Forms
+                "abvm", // Above-base Mark Positioning
+                "abvs", // Above-base Substitutions
+                "afrc", // Alternative Fractions
+                "akhn", // Akhands
+                "blwf", // Below-base Forms
+                "blwm", // Below-base Mark Positioning
+                "blws", // Below-base Substitutions
+                "c2pc", // Petite Capitals From Capitals
+                "c2sc", // Small Capitals From Capitals
+                "calt", // Connection Forms
+                "case", // Case-Sensitive Forms
+                "ccmp", // Glyph Composition/Decomposition
+                "clig", // Contextual Ligatures
+                "cpsp", // Capital Spacing
+                "cswh", // Contextual Swash
+                "curs", // Cursive Positioning
+                "dflt", // Default Processing
+                "dist", // Distances
+                "dlig", // Discretionary Ligatures
+                "dnom", // Denominators
+                "dpng", // Diphthongs
+                "expt", // Expert Forms
+                "falt", // Final glyph Alternates
+                "fina", // Terminal Forms
+                "fin2", // Terminal Forms #2
+                "fin3", // Terminal Forms #3
+                "frac", // Fractions
+                "fwid", // Full Width
+                "half", // Half Forms
+                "haln", // Halant Forms
+                "halt", // Alternate Half Width
+                "hist", // Historical Forms
+                "hkna", // Horizontal Kana Alternates
+                "hlig", // Historical Ligatures
+                "hngl", // Hangul
+                "hwid", // Half Width
+                "init", // Initial Forms
+                "isol", // Isolated Forms
+                "ital", // Italics
+                "jajp", // Japanese Forms
+                "jalt", // Justification Alternatives
+                "jp78", // JIS78 Forms
+                "jp83", // JIS83 Forms
+                "jp90", // JIS90 Forms
+                "kern", // Kerning
+                "lfbd", // Left Bounds
+                "liga", // Standard Ligatures
+                "ljmo", // Leading Jamo Forms
+                "lnum", // Lining Figures
+                "locl", // Localized Forms
+                "mark", // Mark Positioning
+                "medi", // Medial Forms
+                "med2", // Medial Forms #2
+                "mgrk", // Mathematical Greek
+                "mkmk", // Mark to Mark Positioning
+                "mset", // Mark Positioning via Substitution
+                "nalt", // Alternate Annotation Forms
+                "nukt", // Nukta Forms
+                "numr", // Numerators
+                "onum", // Old Style Figures
+                "opbd", // Optical Bounds
+                "ordn", // Ordinals
+                "ornm", // Ornaments
+                "palt", // Proportional Alternate Width
+                "pcap", // Petite Capitals
+                "pnum", // Proportional Figures
+                "pref", // Pre-base Forms
+                "pres", // Pre-base Substitutions
+                "pstf", // Post-base Forms
+                "psts", // Post-base Substitutions
+                "pwid", // Proportional Widths
+                "qwid", // Quarter Widths
+                "rand", // Randomize
+                "rlig", // Required Ligatures
+                "rphf", // Reph Form
+                "rtbd", // Right Bounds
+                "rtbd", // Right-to-left Alternates
+                "ruby", // Ruby Notation Forms
+                "salt", // Stylistic Alternates
+                "sinf", // Scientific Inferiors
+                "size", // Optical Size
+                "smcp", // Small Capitals
+                "smpl", // Simplified Forms
+                "subs", // Subscript
+                "sups", // Superscript
+                "swsh", // Swash
+                "titl", // Titling
+                "tjmo", // Trailing Jamo Forms
+                "tnam", // Traditional Name Forms
+                "tnum", // Tabular Figures
+                "trad", // Traditional Forms
+                "twid", // Third Widths
+                "unic", // Unicase
+                "valt", // Alternate Vertical Metrics
+                "vatu", // Vattu Variants
+                "vert", // Vertical Writing
+                "vhal", // Alternate Vertical Half Metrics
+                "vjmo", // Vowel Jamo Forms
+                "vkna", // Vertical Kana Alternates
+                "vkrn", // Vertical Kerning
+                "vpal", // Proportional Alternate Vertical Metrics
+                "vrt2", // Vertical Rotation
+                "zero", // Slashed Zero
             };
 
             for (uint i=0; i<sTags.Length; i++)
