@@ -904,12 +904,6 @@ namespace OTFontFileVal
                 {
                     if (!hmtxTable.IsMonospace(this) && !ContainsSymbolsOnly())
                     {
-                        if (GetDirectoryEntry("kern") == null)
-                        {
-                            v.Warning(T.T_NULL, W._FONT_W_MissingRecommendedTable, null, "kern");
-                            bMissing = true;
-                        }
-
                         if (GetDirectoryEntry("hdmx") == null)
                         {
                             v.Warning(T.T_NULL, W._FONT_W_MissingRecommendedTable, null, "hdmx");
