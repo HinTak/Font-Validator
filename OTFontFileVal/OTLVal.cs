@@ -319,82 +319,215 @@ namespace OTFontFile.OTL
                 "blwf", // Below-base Forms
                 "blwm", // Below-base Mark Positioning
                 "blws", // Below-base Substitutions
-                "c2pc", // Petite Capitals From Capitals
-                "c2sc", // Small Capitals From Capitals
-                "calt", // Connection Forms
+                "calt", // Contextual Alternates
                 "case", // Case-Sensitive Forms
-                "ccmp", // Glyph Composition/Decomposition
+                "ccmp", // Glyph Composition / Decomposition
+                "cfar", // Conjunct Form After Ro
+                "cjct", // Conjunct Forms
                 "clig", // Contextual Ligatures
+                "cpct", // Centered CJK Punctuation
                 "cpsp", // Capital Spacing
                 "cswh", // Contextual Swash
                 "curs", // Cursive Positioning
-                "dflt", // Default Processing
+                "cv00", // Character Variant 0
+                "cv01", // Character Variant 1
+                "cv02", // Character Variant 2
+                "cv03", // Character Variant 3
+                "cv04", // Character Variant 4
+                "cv05", // Character Variant 5
+                "cv06", // Character Variant 6
+                "cv07", // Character Variant 7
+                "cv08", // Character Variant 8
+                "cv09", // Character Variant 9
+                "cv10", // Character Variant 10
+                "cv11", // Character Variant 11
+                "cv12", // Character Variant 12
+                "cv13", // Character Variant 13
+                "cv14", // Character Variant 14
+                "cv15", // Character Variant 15
+                "cv16", // Character Variant 16
+                "cv17", // Character Variant 17
+                "cv18", // Character Variant 18
+                "cv19", // Character Variant 19
+                "cv20", // Character Variant 20
+                "cv21", // Character Variant 21
+                "cv22", // Character Variant 22
+                "cv23", // Character Variant 23
+                "cv24", // Character Variant 24
+                "cv25", // Character Variant 25
+                "cv26", // Character Variant 26
+                "cv27", // Character Variant 27
+                "cv28", // Character Variant 28
+                "cv29", // Character Variant 29
+                "cv30", // Character Variant 30
+                "cv31", // Character Variant 31
+                "cv32", // Character Variant 32
+                "cv33", // Character Variant 33
+                "cv34", // Character Variant 34
+                "cv35", // Character Variant 35
+                "cv36", // Character Variant 36
+                "cv37", // Character Variant 37
+                "cv38", // Character Variant 38
+                "cv39", // Character Variant 39
+                "cv40", // Character Variant 40
+                "cv41", // Character Variant 41
+                "cv42", // Character Variant 42
+                "cv43", // Character Variant 43
+                "cv44", // Character Variant 44
+                "cv45", // Character Variant 45
+                "cv46", // Character Variant 46
+                "cv47", // Character Variant 47
+                "cv48", // Character Variant 48
+                "cv49", // Character Variant 49
+                "cv50", // Character Variant 50
+                "cv51", // Character Variant 51
+                "cv52", // Character Variant 52
+                "cv53", // Character Variant 53
+                "cv54", // Character Variant 54
+                "cv55", // Character Variant 55
+                "cv56", // Character Variant 56
+                "cv57", // Character Variant 57
+                "cv58", // Character Variant 58
+                "cv59", // Character Variant 59
+                "cv60", // Character Variant 60
+                "cv61", // Character Variant 61
+                "cv62", // Character Variant 62
+                "cv63", // Character Variant 63
+                "cv64", // Character Variant 64
+                "cv65", // Character Variant 65
+                "cv66", // Character Variant 66
+                "cv67", // Character Variant 67
+                "cv68", // Character Variant 68
+                "cv69", // Character Variant 69
+                "cv70", // Character Variant 70
+                "cv71", // Character Variant 71
+                "cv72", // Character Variant 72
+                "cv73", // Character Variant 73
+                "cv74", // Character Variant 74
+                "cv75", // Character Variant 75
+                "cv76", // Character Variant 76
+                "cv77", // Character Variant 77
+                "cv78", // Character Variant 78
+                "cv79", // Character Variant 79
+                "cv80", // Character Variant 80
+                "cv81", // Character Variant 81
+                "cv82", // Character Variant 82
+                "cv83", // Character Variant 83
+                "cv84", // Character Variant 84
+                "cv85", // Character Variant 85
+                "cv86", // Character Variant 86
+                "cv87", // Character Variant 87
+                "cv88", // Character Variant 88
+                "cv89", // Character Variant 89
+                "cv90", // Character Variant 90
+                "cv91", // Character Variant 91
+                "cv92", // Character Variant 92
+                "cv93", // Character Variant 93
+                "cv94", // Character Variant 94
+                "cv95", // Character Variant 95
+                "cv96", // Character Variant 96
+                "cv97", // Character Variant 97
+                "cv98", // Character Variant 98
+                "cv99", // Character Variant 99
+                "c2pc", // Petite Capitals From Capitals
+                "c2sc", // Small Capitals From Capitals
                 "dist", // Distances
                 "dlig", // Discretionary Ligatures
                 "dnom", // Denominators
-                "dpng", // Diphthongs
+                "dtls", // Dotless Forms
                 "expt", // Expert Forms
-                "falt", // Final glyph Alternates
-                "fina", // Terminal Forms
+                "falt", // Final Glyph on Line Alternates
                 "fin2", // Terminal Forms #2
                 "fin3", // Terminal Forms #3
+                "fina", // Terminal Forms
+                "flac", // Flattened accent forms
                 "frac", // Fractions
-                "fwid", // Full Width
+                "fwid", // Full Widths
                 "half", // Half Forms
                 "haln", // Halant Forms
-                "halt", // Alternate Half Width
+                "halt", // Alternate Half Widths
                 "hist", // Historical Forms
                 "hkna", // Horizontal Kana Alternates
                 "hlig", // Historical Ligatures
                 "hngl", // Hangul
-                "hwid", // Half Width
+                "hojo", // Hojo Kanji Forms (JIS X 0212-1990 Kanji Forms)
+                "hwid", // Half Widths
                 "init", // Initial Forms
                 "isol", // Isolated Forms
                 "ital", // Italics
-                "jajp", // Japanese Forms
-                "jalt", // Justification Alternatives
+                "jalt", // Justification Alternates
                 "jp78", // JIS78 Forms
                 "jp83", // JIS83 Forms
                 "jp90", // JIS90 Forms
+                "jp04", // JIS2004 Forms
                 "kern", // Kerning
                 "lfbd", // Left Bounds
                 "liga", // Standard Ligatures
                 "ljmo", // Leading Jamo Forms
                 "lnum", // Lining Figures
                 "locl", // Localized Forms
+                "ltra", // Left-to-right alternates
+                "ltrm", // Left-to-right mirrored forms
                 "mark", // Mark Positioning
-                "medi", // Medial Forms
                 "med2", // Medial Forms #2
+                "medi", // Medial Forms
                 "mgrk", // Mathematical Greek
                 "mkmk", // Mark to Mark Positioning
                 "mset", // Mark Positioning via Substitution
                 "nalt", // Alternate Annotation Forms
+                "nlck", // NLC Kanji Forms
                 "nukt", // Nukta Forms
                 "numr", // Numerators
-                "onum", // Old Style Figures
+                "onum", // Oldstyle Figures
                 "opbd", // Optical Bounds
                 "ordn", // Ordinals
                 "ornm", // Ornaments
-                "palt", // Proportional Alternate Width
+                "palt", // Proportional Alternate Widths
                 "pcap", // Petite Capitals
+                "pkna", // Proportional Kana
                 "pnum", // Proportional Figures
-                "pref", // Pre-base Forms
+                "pref", // Pre-Base Forms
                 "pres", // Pre-base Substitutions
                 "pstf", // Post-base Forms
                 "psts", // Post-base Substitutions
                 "pwid", // Proportional Widths
                 "qwid", // Quarter Widths
                 "rand", // Randomize
+                "rclt", // Required Contextual Alternates
+                "rkrf", // Rakar Forms
                 "rlig", // Required Ligatures
-                "rphf", // Reph Form
+                "rphf", // Reph Forms
                 "rtbd", // Right Bounds
-                "rtbd", // Right-to-left Alternates
+                "rtla", // Right-to-left alternates
+                "rtlm", // Right-to-left mirrored forms
                 "ruby", // Ruby Notation Forms
                 "salt", // Stylistic Alternates
                 "sinf", // Scientific Inferiors
-                "size", // Optical Size
+                "size", // Optical size
                 "smcp", // Small Capitals
                 "smpl", // Simplified Forms
+                "ss01", // Stylistic Set 1
+                "ss02", // Stylistic Set 2
+                "ss03", // Stylistic Set 3
+                "ss04", // Stylistic Set 4
+                "ss05", // Stylistic Set 5
+                "ss06", // Stylistic Set 6
+                "ss07", // Stylistic Set 7
+                "ss08", // Stylistic Set 8
+                "ss09", // Stylistic Set 9
+                "ss10", // Stylistic Set 10
+                "ss11", // Stylistic Set 11
+                "ss12", // Stylistic Set 12
+                "ss13", // Stylistic Set 13
+                "ss14", // Stylistic Set 14
+                "ss15", // Stylistic Set 15
+                "ss16", // Stylistic Set 16
+                "ss17", // Stylistic Set 17
+                "ss18", // Stylistic Set 18
+                "ss19", // Stylistic Set 19
+                "ss20", // Stylistic Set 20
+                "ssty", // Math script style alternates
+                "stch", // Stretching Glyph Decomposition
                 "subs", // Subscript
                 "sups", // Superscript
                 "swsh", // Swash
@@ -413,7 +546,7 @@ namespace OTFontFile.OTL
                 "vkna", // Vertical Kana Alternates
                 "vkrn", // Vertical Kerning
                 "vpal", // Proportional Alternate Vertical Metrics
-                "vrt2", // Vertical Rotation
+                "vrt2", // Vertical Alternates and Rotation
                 "zero", // Slashed Zero
             };
 
